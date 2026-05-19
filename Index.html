@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>ExpenX</h1>
+    </div>
+
+    <div class="imagediv">
+        <div class="backgroundimage"></div>
+    </div>
+
+    <div class="steps">
+        <div class="same" id="sourcepage">
+            <div class="headerTag"><h4>Add Your Source and Income</h4></div>
+            <div class="contentDiv">
+                <input id="incomeSource" class="incomefeild" type="text" placeholder="Job, Buissness and Other">
+                <p id="sourceError" class="error"></p>
+            </div>
+            <div class="contentDiv">
+                <input id="monthIncome" class="incomefeild" type="text" placeholder="Monthly Income">
+                <p id="numberError" class="error"></p>
+            </div>
+
+            <div class="addValue">
+                <input id="sourceAdd" class="addedValue" type="submit" value="Submit">
+            </div>
+        </div>
+        <div class="same">
+            <div class="headerTag"><h4>Add Your Expenses</h4></div>
+            <div class="contentDiv">
+                <input id="category" class="incomefeild" type="text" placeholder="Food, Travel and Other">
+                <p id="categoryError" class="error"></p>
+            </div> 
+            <div class="contentDiv">
+                <input id="amount" class="incomefeild" type="text" placeholder="Expense Amount">
+                <p id="amountError" class="error"></p>
+            </div>
+
+            <div class="addValue">
+                <input id="expenseAdd" class="addedValue" type="submit" value="Submit">
+            </div>
+        </div>
+     
+        <div class="trackerButton">
+            <div class="expensetracker">
+                <p>Track Expense</p>
+            </div>
+        </div>
+    </div> 
+
+    <div class="footer">
+        <div class="innerFooter">
+            <div class="secondaryFooter">
+                <span class="footerText">Eamil</span>
+                <input type="email" placeholder="Enter Email" class="emailinput">
+            </div>
+
+            <div class="secondaryFooter">
+                <span class="footerText">Contact</span>
+                <input type="text" placeholder="Contact Number">
+            </div>
+
+            <div class="secondaryFooter">
+                <input type="submit" value="Submit" id="button">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
