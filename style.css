@@ -4,13 +4,12 @@
     
 }
 
-@media(min-width: 700px){
-    .header{
-        background: linear-gradient(to right, rgb(12, 15, 93), rgb(3, 36, 109));
-        color: white; 
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: 300;
-        padding: 5px; 
+.header{
+    background: linear-gradient(to right, rgb(12, 15, 93), rgb(3, 36, 109));
+    color: white; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    padding: 5px; 
 }
 
 .header h1{
@@ -32,16 +31,14 @@
     max-width: 91%;
     height: 300px; 
     border: 1px solid white; 
-    background-image: url("C:/Users/Rohil/ExpenseTracker/assets/trakerimage.jpeg");
+    background-image: url("C:/Users/Rohil/ExpenX/assets/trackerimage.jpeg");
     background-repeat: no-repeat;
     background-size: cover; 
     box-sizing: border-box; 
 }
 
 .steps{
-    min-width: 100%;
-    max-width: 100%;
-    /* border: 1px solid; */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
