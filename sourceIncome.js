@@ -36,9 +36,7 @@ function showData(){
         document.getElementById("balancer").style.display = "none"; 
         document.getElementById("expensers").style.display = "none"; 
         document.querySelector(".totalText").style.display = "none"; 
-        // document.getElementById("body").style.display = "flex"; 
-        // document.getElementById("body").style.justifyContent = "center"; 
-        // document.getElementById("body").style.alignItems = "center";
+    
         let divtag = document.createElement("div");
         let divtag2 = document.createElement("div"); 
         let ptag = document.createElement("p"); 
@@ -79,6 +77,9 @@ function showData(){
             let divtagInput2 = document.createElement("div"); 
             divtagInput2.className = "sameDiv"; 
 
+            let divtagbutton = document.createElement("div"); 
+            divtagbutton.className = "buttonDiv"; 
+
             let input1 = document.createElement("input"); 
             input1.placeholder = "Source of Income"; 
             input1.className = "inputElement"; 
@@ -92,20 +93,18 @@ function showData(){
             bttn.className = "saveButton"
 
             let wordError = document.createElement("p"); 
-            wordError.className = "Error"; 
+            wordError.className = "Error";
 
             let incomeError = document.createElement("p"); 
             incomeError.className = "Error"
 
             divtagInput1.appendChild(input1); 
             divtagInput2.appendChild(input2); 
-            divtag.append(divtagInput1, wordError, divtagInput2, incomeError,  bttn); 
+            divtagbutton.appendChild(bttn); 
+            divtag.append(divtagInput1, wordError, divtagInput2, incomeError,  divtagbutton); 
 
-            document.body.style.height = "100vh"; 
-            document.body.style.display = "flex"; 
-            document.body.style.justifyContent = "center"; 
-            document.body.style.alignItems = "center"; 
-            document.body.appendChild(divtag); 
+            document.querySelector(".popUpEdit").append(divtag); 
+
 
             document.getElementById("balancer").style.display = "none"; 
             document.getElementById("expensers").style.display = "none";
@@ -205,6 +204,9 @@ function showExpenses(){
             let divtagInput2 = document.createElement("div"); 
             divtagInput2.className = "sameDiv"; 
 
+            let divtagbutton = document.createElement("div"); 
+            divtagbutton.className = "buttonDiv"; 
+
             let input1 = document.createElement("input"); 
             input1.placeholder = "Enter Expense Name"; 
             input1.className = "inputElement"; 
@@ -224,13 +226,10 @@ function showExpenses(){
             amountError.className = "Error"; 
             divtagInput1.appendChild(input1); 
             divtagInput2.appendChild(input2); 
-            divtag.append(divtagInput1, wordError,  divtagInput2, amountError,  bttn); 
+            divtagbutton.appendChild(bttn); 
+            divtag.append(divtagInput1, wordError,  divtagInput2, amountError, divtagbutton); 
 
-            document.body.style.height = "100vh"; 
-            document.body.style.display = "flex"; 
-            document.body.style.justifyContent = "center"; 
-            document.body.style.alignItems = "center"; 
-            document.body.appendChild(divtag); 
+            document.querySelector(".popUpEdit").append(divtag); 
 
             document.getElementById("balancer").style.display = "none"; 
             document.getElementById("expensers").style.display = "none";
