@@ -18,7 +18,7 @@ body{
     flex-wrap: wrap;
     border: 1px solid;
     box-sizing: border-box;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: sans-serif;
 }
 
 .datas{
@@ -247,6 +247,7 @@ body{
     align-items: center;
     font-weight: 600;
     box-sizing: border-box;
+    
 }
 
 
@@ -309,7 +310,6 @@ body{
 }
 
 .Error{
-    font-size: 1rem;
     margin-top: 1px;
 }
 

@@ -34,7 +34,8 @@ function showData(){
     }else{
         document.getElementById("balancer").style.display = "none"; 
         document.getElementById("expensers").style.display = "none"; 
-        document.querySelector(".totalText").style.display = "none"; 
+        document.querySelector(".totalText").style.display = "none";
+        document.querySelector(".popUpEdit").style.display = "none";  
     
         let divtag = document.createElement("div");
         let divtag2 = document.createElement("div"); 

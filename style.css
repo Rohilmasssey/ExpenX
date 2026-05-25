@@ -67,6 +67,7 @@
 
 .contentDiv .error{
     margin-top: 2px;
+    font-size: 1rem;
 }
 
 .addValue .addedValue{
@@ -151,10 +152,11 @@
 }
 
 .secondaryFooter .inputField{
-    min-width: 50%; 
+    min-width: 60%; 
     min-height: 3vh; 
     padding: 2px;
     box-sizing: border-box;
+    border-radius: 50px;
 }
 
 .secondaryFooter #button{
