@@ -152,16 +152,16 @@
 }
 
 .secondaryFooter .inputField{
-    min-width: 60%; 
-    min-height: 3vh; 
+    min-width: 80%; 
+    min-height: 4vh; 
     padding: 2px;
     box-sizing: border-box;
     border-radius: 50px;
 }
 
 .secondaryFooter #button{
-    width: 100px; 
-    height: 25px; 
+    width: 40%; 
+    height: 4vh; 
     border: 1px solid; 
     border-radius: 50px; 
     background-color: rgb(36, 146, 36);
