@@ -65,6 +65,8 @@ body{
 .sourceIncomeHeader ul{
     min-width: 90%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     box-sizing: border-box;
     padding: 5px; 
@@ -110,7 +112,7 @@ body{
     display: flex; 
     justify-content: center;
     align-items: center; 
-    font-size: 1rem;
+    /* font-size: 1rem; */
     justify-content: space-evenly;
 }
 
@@ -190,7 +192,6 @@ body{
 }
 .tableHeader{
     width: 100%; 
-    /* border: 1px solid rgba(0, 0, 0, 0.281); */
     box-sizing: border-box;
     padding: 5px; 
     top: 0px; 
@@ -231,7 +232,7 @@ body{
 .secondDiv{
     display: flex; 
     margin-top: 15px;
-    width: 98%; 
+    width: 100%; 
     border-radius: 50px;
     border: 1px solid rgba(0, 0, 0, 0.379);
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.274);
@@ -245,31 +246,31 @@ body{
     display: flex; 
     justify-content: center;
     align-items: center;
-    padding: 3px; 
-    margin: 2px; 
-    font-size: 1.1rem;
-    font-weight: 500;
+    padding: 1px; 
+    margin: 1px; 
+    font-weight: 600;
     box-sizing: border-box;
 }
 
 .secondDiv #ptag3{
     display: flex;
+    justify-content: center;
+    align-items: center;
     justify-content: space-evenly;
     box-sizing: border-box;
 }
 
 #ptag3 .button1{
     width: 50%;
-    max-width: 50px;
-    height: 30px; 
+    height: 3vh; 
     padding: 2px;
     border-radius: 50px;
-    gap: 10px;
     box-sizing: border-box;
 }
 
 #ptag3 .button2{
-    height: 30px;
+    width: 50%; 
+    height: 3vh;
     padding: 2px; 
     border-radius: 50px;
     box-sizing: border-box;
@@ -363,6 +364,10 @@ body{
         border-radius: 12px;
         justify-content: space-evenly;
     }
+
+    /* #ptag3 .button1{
+        width: 30%;
+    } */
 
     .sameDiv .inputElement{
         height: 5vh;

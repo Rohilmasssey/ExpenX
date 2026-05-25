@@ -155,7 +155,7 @@ function showExpenses(){
 
         let button1 = document.createElement("button"); 
         let button2 = document.createElement("button");
-
+ 
         ptag.className = "expenseValues"; 
         ptag1.className = "expenseValues"; 
         ptag2.className = "expenseValues"; 
