@@ -14,28 +14,6 @@
     padding: 5px; 
 }
 
-.imagediv{
-    min-width: 100%; 
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    background-color: whitesmoke;
-}
-
-.imagediv .backgroundimage{
-    min-width: 91%; 
-    max-width: 91%;
-    height: 300px; 
-    border: 1px solid white; 
-    background-image: url("C:/Users/Rohil/ExpenX/assets/BackgroundImage.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover; 
-    box-sizing: border-box; 
-
-}
-
 .steps{
     min-width: 100%;
     max-width: 100%;
