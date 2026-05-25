@@ -1,5 +1,4 @@
 let userData = JSON.parse(localStorage.getItem("UserIncome")); 
-console.log(userData); 
 function showData(){
     let j = 0;  
     if(userData.length > 0){
@@ -107,7 +106,7 @@ function showData(){
 
 
             document.getElementById("balancer").style.display = "none"; 
-            document.getElementById("expensers").style.display = "none";
+            document.querySelector(".expenserContainer").style.display = "none";
             document.querySelector(".totalText").style.display = "none"; 
 
             document.querySelector(".saveButton").addEventListener("click", () => {

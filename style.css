@@ -1,5 +1,5 @@
 *{
-    margin: 0; 
+    margin: 0;
     padding: 0; 
 }
 
@@ -7,193 +7,7 @@
     background: linear-gradient(to right, rgb(12, 15, 93), rgb(3, 36, 109));
     color: white; 
     font-weight: 300;
-    padding: 5px; 
-}
-
-.header h1{
-    padding: 5px; 
-}
-
-.imagediv{
-    min-width: 100%; 
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    background-color: whitesmoke;
-}
-
-.imagediv .backgroundimage{
-    min-width: 91%; 
-    max-width: 91%;
-    height: 300px; 
-    border: 1px solid white; 
-    background-image: url("C:/Users/Rohil/ExpenX/assets/trackerimage.jpeg");
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    box-sizing: border-box; 
-}
-
-.steps{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 40px; 
-    justify-content: space-around;
-    padding-bottom: 20px; 
-    padding: 20px; 
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-.steps .same{
-    min-width: 90%; 
-    border: 1px solid; 
-    font-size: 1.5em;
-    border-radius: 12px; 
-    text-align: center;
-    background-color: whitesmoke;
-    color: black; 
-    box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.71);
-    padding: 20px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    box-sizing: border-box; 
-    font-family: sans-serif;
-    gap: 50px;
-}
-.same .headerTag{
-    margin: 2px;
-    padding-top: 2px; 
-}
-.same .contentDiv{
-    margin-top: 40px; 
-    color: rgba(245, 245, 245, 0.372);
-}
-
-.same .incomefeild{
-    min-width: 95%; 
-    max-width: 95%;
-    height: 60px;
-    border: 1px solid; 
-    border-radius: 50px; 
-    padding-left: 10px; 
-    font-size: 0.9em; 
-    box-sizing: border-box;
-}
-
-.contentDiv .error{
-    margin-top: 2px;
-}
-
-.same .addValue{
-    margin-top: 20px;
-}
-
-.addValue .addedValue{
-    width: 40%; 
-    height: 60px; 
-    border: 1px solid; 
-    border-radius: 50px;
-    background-color: rgb(29, 151, 29);
-    color: white; 
-    font-size: 1.0em;
-    margin-top: 10px;
-}
-
-.addValue .addedValue:active{
-    background: rgb(1, 103, 1);
-}
-
-
-.steps .same .innerdiv{
-    margin-top: 50px; 
-}
-
-.steps .expensetracker{
-    min-width: 40%;
-    height: 60px; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    border-radius: 50px;
-    color: black; 
-    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.679);
-    background-color: rgb(30, 181, 30);
-    margin-bottom: 20px; 
-    font-size: 1.5em;
     padding: 10px; 
-    box-sizing: border-box;
-}
-
-.steps .expensetracker:active{
-    transform: scale(0.9);
-}
-
-
-
-.footer{
-    background-color: black;
-    color: white; 
-    height: 200px; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-}
-
-.footer .innerFooter{
-    gap: 20px;
-    display: flex; 
-    flex-wrap: wrap;
-}
-
-.footer .innerFooter .secondaryFooter{
-    min-width: 100%; 
-    max-width: 100%; 
-    display: flex; 
-    justify-content: center;
-    align-items: center; 
-    gap: 10px; 
-}
-
-.secondaryFooter .emailinput{
-    margin-left: 13px; 
-}
-
-.footerText{
-    font-size: 1.5em;
-    color: rgba(255, 255, 255, 0.363)
-}
-
-.innerFooter .secondaryFooter input{
-    width: 200px;
-    height: 25px; 
-    font-size: 0.9em;
-}
-
-.secondaryFooter #button{
-    width: 100px; 
-    height: 25px; 
-    border: 1px solid; 
-    border-radius: 12px; 
-}
-
-.secondaryFooter #button:active{
-    transform: scale(0.8);
-    background-color: rgb(36, 146, 36);
-    box-shadow: 0 0 6px 6px rgba(255, 255, 255, 0.262)
-}
-
-
-.header{
-    background: linear-gradient(to right, rgb(12, 15, 93), rgb(3, 36, 109));
-    color: white; 
-    font-weight: 300;
-    padding: 5px; 
 }
 
 .header h1{
@@ -219,12 +33,12 @@
     background-repeat: no-repeat;
     background-size: cover; 
     box-sizing: border-box; 
+    
 }
 
 .steps{
     min-width: 100%;
     max-width: 100%;
-    /* border: 1px solid; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,6 +66,7 @@
     font-family: sans-serif;
     gap: 50px;
 }
+
 .same .headerTag{
     margin: 2px;
     padding-top: 2px; 
@@ -262,19 +77,19 @@
 }
 
 .same .incomefeild{
-    width: 100%; 
-    height: 5vh; 
+    width: 90%; 
+    min-height: 4vh;
+    max-height: 3vh;
     border: 1px solid; 
     border-radius: 50px; 
     padding-left: 10px; 
-    font-size: 0.9em; 
+    font-size: 0.9rem; 
     box-sizing: border-box;
 }
 
 .contentDiv .error{
     margin-top: 2px;
 }
-
 
 .addValue .addedValue{
     width: 30%; 
@@ -289,17 +104,20 @@
     margin-top: 20px;
 }
 
+.addValue .addedValue:hover{
+    cursor: pointer;
+}
+
 .addValue .addedValue:active{
     background: rgb(1, 103, 1);
 }
-
 
 .steps .same .innerdiv{
     margin-top: 50px; 
 }
 
 .steps .expensetracker{
-    min-width: 40%;
+    min-width: 20%;
     height: 60px; 
     display: flex; 
     justify-content: center; 
@@ -309,15 +127,19 @@
     box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.679);
     background-color: rgb(30, 181, 30);
     margin-bottom: 20px; 
-    font-size: 1.5em;
+    font-size: 1.3rem;
     padding: 10px; 
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.steps .expensetracker:hover{
+    cursor: pointer;
 }
 
 .steps .expensetracker:active{
     transform: scale(0.9);
 }
-
 
 
 .footer{
@@ -357,19 +179,22 @@
     box-sizing: border-box;
 }
 
-
-
-
 .secondaryFooter #button{
     width: 100px; 
     height: 25px; 
     border: 1px solid; 
-    border-radius: 12px; 
+    border-radius: 50px; 
+    background-color: rgb(36, 146, 36);
+
+}
+
+.secondaryFooter #button:hover{
+    cursor: pointer;
 }
 
 .secondaryFooter #button:active{
     transform: scale(0.8);
-    background-color: rgb(36, 146, 36);
+    background-color: rgb(24, 63, 24);
     box-shadow: 0 0 6px 6px rgba(255, 255, 255, 0.262)
 }
 
@@ -383,6 +208,11 @@
         max-width: 50%;
     }
 
+    .same .incomefeild{
+        width: 75%;
+        font-size: 1.1rem;
+    }
+
     .steps .trackerButton{
         min-width: 100%;
         max-width: 100%;
@@ -392,17 +222,12 @@
     }
 
     .steps .expensetracker{
-        min-width: 30%; 
-        max-width: 30%; 
-    }
-
-    .same .incomefeild{
-        height: 7vh;
+        min-width: 20%;
     }
 
     .addValue .addedValue{
         width: 30%; 
-        height: 6vh; 
+        height: 4vh; 
         border: 1px solid; 
         border-radius: 50px;
         background-color: rgb(29, 151, 29);
@@ -413,10 +238,55 @@
     }
 
     .secondaryFooter .inputField{
-        min-width: 30%; 
-        min-height: 5vh; 
-        padding: 2px;
+        min-width: 60%; 
+        min-height: 4vh; 
+        padding: 10px;
         box-sizing: border-box;
+        border-radius: 50px;
+        font-size: 1.1rem;
+    }
+
+    .secondaryFooter #button{
+        width: 30%; 
+        height: 3vh;
     }
 
 }
+
+@media(min-width: 1025px){
+    .steps .same{
+        min-width: 50%;
+        max-width: 50%;
+    }
+
+    .same .incomefeild{
+        width: 75%;
+        font-size: 1.1rem;
+        min-height: 6vh;
+    }
+
+    .addValue .addedValue{
+        width: 30%; 
+        height: 6vh; 
+        border: 1px solid; 
+       
+    }
+
+    .secondaryFooter .inputField{
+        min-width: 40%;
+        min-height: 4vh; 
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 50px;
+        font-size: 1.1rem;
+    }
+
+
+    .secondaryFooter #button{
+        width: 15%;
+        height: 5vh
+    }
+}
+
+
+
