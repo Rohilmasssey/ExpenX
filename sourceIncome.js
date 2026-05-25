@@ -146,12 +146,12 @@ let expensesData = JSON.parse(localStorage.getItem("ExpenseData")) || [];
 function showExpenses(){
     let i = 0; 
     for(value of expensesData){
-        let divtag = document.createElement("div"); 
+        let divtag = document.createElement("ul"); 
         divtag.className = "secondDiv"
-        let ptag = document.createElement("p"); 
-        let ptag1 = document.createElement("p"); 
-        let ptag2 = document.createElement("p"); 
-        let ptag3 = document.createElement("p"); 
+        let ptag = document.createElement("li"); 
+        let ptag1 = document.createElement("li"); 
+        let ptag2 = document.createElement("li"); 
+        let ptag3 = document.createElement("li"); 
 
         let button1 = document.createElement("button"); 
         let button2 = document.createElement("button");
@@ -232,7 +232,7 @@ function showExpenses(){
             document.querySelector(".popUpEdit").append(divtag); 
 
             document.getElementById("balancer").style.display = "none"; 
-            document.getElementById("expensers").style.display = "none";
+            document.querySelector(".expenserContainer").style.display = "none";
             document.querySelector(".totalText").style.display = "none"; 
 
             document.querySelector(".saveButton").addEventListener("click", () => {
