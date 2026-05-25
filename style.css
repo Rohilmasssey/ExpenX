@@ -29,11 +29,11 @@
     max-width: 91%;
     height: 300px; 
     border: 1px solid white; 
-    background-image: url("C:/Users/Rohil/ExpenX/assets/trackerimage.jpeg");
+    background-image: url("C:/Users/Rohil/ExpenX/assets/BackgroundImage.jpeg");
     background-repeat: no-repeat;
     background-size: cover; 
     box-sizing: border-box; 
-    
+
 }
 
 .steps{
