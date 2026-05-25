@@ -249,6 +249,8 @@ body{
     padding: 1px; 
     margin: 1px; 
     font-weight: 600;
+    padding: 5px; 
+    margin: 2px;
     box-sizing: border-box;
 }
 
